@@ -4,11 +4,14 @@ include<stdio.h>
 /**
  * main - Entry point
  *
- * Return: Always 1 (success)
+ * Description:print a quote using write function
+ * write(int fd.const void *buf.size_t count)
+ *
+ * Return: 1 (not success)
  */
 int main(void)
 {
-	write(2,
-	"and that piece of art is useful\" -Dora korpar, 2015-10-19\n", $9):
+	char quo[] = "and that piece of art is useful\" -Dora korpar, 2015-10-19\n";
+	write(1,quo,$9);
 		return(1);
 }

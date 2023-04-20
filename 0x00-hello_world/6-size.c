@@ -4,8 +4,9 @@
  *
  * Description: using a sizeof to print the size of various types.
  *
- * Return 0 (Success)
+ * Return Always 0 (Success)
  */
+
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
